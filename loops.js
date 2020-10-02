@@ -13,6 +13,7 @@ function whileLoop(n) {
   return "done"
 }
 function doWhileLoop(num){
+  var i = num
   function incrementVariable() {
     i = num + 1;
     return i;
